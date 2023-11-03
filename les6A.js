@@ -1,4 +1,4 @@
-function randemwoord(inputstring){
+function randomwoord(inputstring){
    let outputstring = '';
    for(let i = 0; i < inputstring.length; i++){
     const random = Math.random();
@@ -13,5 +13,5 @@ function randemwoord(inputstring){
 }
 
 const input = 'Java script is erg leuk'
-const output = randemwoord(input);
+const output = randomwoord(input);
 console.log(output);

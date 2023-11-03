@@ -8,10 +8,10 @@ while(playerHealth > 0){
 const question = rl.question("wil je de zombie aanvallen?: [vechten/vluchten]")
 if (question == "vechten"){
   const playerhealth = Math.floor(Math.random() * 10)
-  console.log("zombie pakt" + playerhealth)
+  console.log("zombie pakt: " + playerhealth)
   const damage = Math.floor(Math.random() * 10)
   playerHealth -= damage
-  console.log("de speler pakt" + damage + "hp")
+  console.log("de speler pakt: " + damage + "hp")
   console.log(playerhealth)
 }else if (question == "vluchten"){
   console.log("Je vlucht")
